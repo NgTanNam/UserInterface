@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_login"
+    android:background="@color/white">
+    <ImageView
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#08658F"
+        android:hint="Nguyễn Tấn Năm"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/bodertop"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_marginTop="-2dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="#08658F"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/boderbottom"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btlogin"
+        android:text="LOGIN ME"
+        android:textSize="20dp"
+        android:backgroundTint="#08658F"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="60dp"/>
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_vpn_key_24"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="#0E83B8"
+            android:text="Lost password ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
